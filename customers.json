@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Distant Lover",
+    "company": "Dystopia",
+    "age": 32,
+    "hobbies": [
+      "wine-tasting",
+      "hunting game",
+      "BBQ"
+    ]
+  },
+
+  {
+    "name": "Literate Guacamole",
+    "company": "123 Comms",
+    "age": 22,
+    "hobbies": [
+      "music",
+      "board games",
+      "BBQ"
+    ]
+  },
+
+  {
+    "name": "Chavari Aweng",
+    "company": "Arts & Scenes",
+    "age": 30,
+    "hobbies": [
+      "fashionista",
+      "social media",
+      "traveling"
+    ]
+  },
+
+  {
+    "name": "Chela Nyamalo",
+    "company": "NTV",
+    "age": 38,
+    "hobbies": [
+      "docccies",
+      "Youtuber",
+      "cooking"
+    ]
+  }
+]

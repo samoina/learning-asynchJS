@@ -25,3 +25,31 @@ function loadCustomerDetails() {
   xhr.send();
 }
 
+//Displaying multiple entries from the second JSON file
+document.getElementById('button2').addEventListener('click', loadCustomers);
+
+function loadCustomers(){
+  const xhr2 = new XMLHttpRequest();
+  xhr2.open('GET', 'customers.json', true);
+
+  xhr2.onload = function(){
+    let customers = JSON.parse(this.responseText);
+    //I created a variable for an empty string to hold the details about the customer
+    let output = '';
+
+      customers.forEach(customer => {
+      output +=  `<ul>
+      <li>Name: ${customer.name}</li>
+      <li>Company: ${customer.company}</li>
+      <li>Age: ${customer.age}</li>
+      <li>Hobbies: ${customer.hobbies}</li>
+    </ul>`
+    });
+
+    //i then appended the data on the page
+    document.getElementById('customers').innerHTML = output;
+  }
+
+  xhr2.send();
+}
+
