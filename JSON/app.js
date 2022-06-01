@@ -46,7 +46,7 @@ function loadCustomers(){
     </ul>`
     });
 
-    //i then appended the data on the page
+    //i then appended the data on the page to be displayed
     document.getElementById('customers').innerHTML = output;
   }
 
